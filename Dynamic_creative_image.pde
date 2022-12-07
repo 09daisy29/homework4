@@ -28,7 +28,6 @@ void nextImage() {
 void paintStroke(float strokeLength, color strokeColor, int strokeThickness) {
   float stepLength = strokeLength/4.0;
   
-  // Determines if the stroke is curved. A straight line is 0.
   float tangent1 = 0;
   float tangent2 = 0;
   
